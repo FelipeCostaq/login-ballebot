@@ -1,1 +1,22 @@
 @charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-image: linear-gradient(to right, #3A292A, #45312F, #8D5C51);
+}
+
+main{
+    background-color: #8D5C51;
+    width: 60vw;
+    margin: auto;
+}
+
+section{
+    background-color: ;
+}
