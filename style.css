@@ -5,18 +5,48 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    box-sizing: border-box;
 }
 
-body{
-    background-image: linear-gradient(to right, #3A292A, #45312F, #8D5C51);
+body, html{
+    background-color: #8D5C51;
+    width: 100vw;
+    height: 100vh;
 }
 
 main{
     background-color: #8D5C51;
-    width: 60vw;
+    width: 80vw;
+    height: 100vh;
     margin: auto;
+
 }
 
-section{
-    background-color: ;
+
+section#login{
+    box-shadow: 0px 0px 20px #3e2924;
+    background-color: #8F6853;
+    width: 80vw;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+section#login > div#img{
+    display: block;
+    background: #8F6853 url(img/ballebot.png) no-repeat;
+    background-attachment: fixed;
+    height: 350px;
+    background-size: cover;
+    background-position: left top;
+}
+
+section#login > div#form{
+    display: block;
+    padding: 10px;
+
 }
