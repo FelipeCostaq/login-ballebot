@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BalleBot - O melhor bot open source para seu servidor do Discord</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquery.css">
 </head>
@@ -16,15 +17,29 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça o login para acessar a BalleBot.</p>
-                <form action="login.php" method="post">
-                    <p>
-                        <input type="text" name="text" id="itext">
-                        <input type="password" name="senha" id="isenha">
-                    </p>
-                    <p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">
+                            person
+                        </span>
+                        <input type="text" name="text" id="itext" placeholder="Exemplo: Felpi#0000" required>
+                        
+                    <div>
+                        <span class="material-icons">
+                            vpn_key
+                        </span>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha do Discord" autocomplete="current-password" required>
+                        
+                    </div>
+                    </div>
+                    <div class="campo">
                         <input type="submit" value="Login">
-                        <input type="submit" value="Esqueci Minha Senha">
-                    </p>
+                        <a href="#">
+                            Esqueci a senha
+                            <span class="material-icons">mail</span>
+
+                        </a>
+                    </div>
                     
                 </form>
             </div>
