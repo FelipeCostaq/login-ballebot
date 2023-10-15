@@ -34,11 +34,15 @@ section#login{
     top: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width 0.3s; height: 0.3s;
+    transition-timing-function: ease;
+    
 }
 
 section#login > div#img{
     display: block;
-    background: #8F6853 url(img/ballebot.png) no-repeat;
+    background: white url(img/ballebot.png) no-repeat;
 
     height: 350px;
     background-size: cover;
