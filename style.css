@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+
     box-sizing: border-box;
 }
 
@@ -52,15 +52,36 @@ section#login > div#img{
 section#login > div#form{
     display: block;
     padding: 10px;
+    
 
 }
 
 div#form > h1{
     text-align: center;
     margin-bottom: 10px;
+    color: white;
 
 }
 
 div#form > p{
     font-size: 0.8em;
+    color: white;
+}
+
+
+input#enviar {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    color: white;
+    height: 40px;
+    background-color: #664740c3;
+    border: none;
+    border: 1px solid black;
+}
+
+input#enviar:hover{
+    color: black;
+    background-color: #ad796dc3;
+    cursor: pointer;
 }
