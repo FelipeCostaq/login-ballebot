@@ -44,7 +44,7 @@ section#login > div#img{
     display: block;
     background: white url(img/ballebot.png) no-repeat;
 
-    height: 320px;
+    height: 275px;
     background-size: cover;
     background-position: left top;
 }
@@ -52,6 +52,7 @@ section#login > div#img{
 section#login > div#form{
     display: block;
     padding: 10px;
+
     
 
 }
