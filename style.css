@@ -27,7 +27,7 @@ section#login{
     box-shadow: 0px 0px 20px #3e29246c;
     background-color: #78456e;
     width: 80vw;
-    height: 515px;
+    height: 530px;
     border-radius: 20px;
     position: absolute;
     left: 50%;
@@ -101,7 +101,7 @@ a.but{
     padding-top: 10px;
 }
 a.but:hover{
-    background-color: #814e76;
+    background-color: #989292;
     color: white;
 }
 a.but > span{
@@ -109,14 +109,18 @@ a.but > span{
 }
 
 form > div.campo1{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     display: block;
-    height: 60px;
-    border-radius: 5px;
+    margin: auto;
+    height: 70px;
+    border-radius: 15px;
     margin: 5px 0px;
+    text-align: center;
 }
-
+span{
+    font-size: 1.5em;
+}
 form label{
     display: none;
 
