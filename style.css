@@ -1,21 +1,29 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'europa';
+    src: url(fonts/europa-regular-webfont.ttf);
+}
+
+@font-face {
+    font-family: 'eurostile';
+    src: url(fonts/eurostile.TTF);
+}
+
 *{
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-
     box-sizing: border-box;
 }
 
 body, html{
-    background-color: #bb7464;
+    background-color: #f9fafb ;
     width: 100vw;
     height: 100vh;
 }
 
 main{
-    background-color: #bb7464;
     width: 80vw;
     height: 100vh;
     margin: auto;
@@ -25,7 +33,7 @@ main{
 
 section#login{
     box-shadow: 0px 0px 20px #3e29246c;
-    background-color: #78456e;
+    background-color: #81649b;
     width: 80vw;
     height: 540px;
     border-radius: 20px;
@@ -57,38 +65,46 @@ section#login > div#form{
 
 div#form > h1{
     text-align: center;
-    margin-bottom: 10px;
-    color: rgb(244, 138, 219);
+    font-family: 'eurostile';
+    margin-bottom: 15px;
+    color: white;
     border-bottom: 1px solid white;
     font-size: 1.7em;
 
 }
 
 div#form > p{
+    font-family: 'europa';
     font-size: 1.0em;
     color: white;
 }
 
 
 input#enviar {
+    font-family: 'europa';
+    font-weight: bold;
     display: block;
     font-size: 1em;
     width: 100%;
     color: black;
     height: 40px;
-    background-color: #f14dd0c3;
+    background-color: #e043e2;
     border: none;
     border: 1px solid black;
     border-radius: 10px;
+    transition: transform 0.1s;
 }
 
 input#enviar:hover{
+    transform: scale(1.03);
     color: white;
-    background-color: #712662c3;
+    background-color: #e043e2;
     cursor: pointer;
 }
 
 a.but{
+    font-family: 'europa';
+    font-weight: bold;
     display: block;
     text-decoration: none;
     font-size: 1em;
