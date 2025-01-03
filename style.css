@@ -92,11 +92,11 @@ input#enviar {
     border: none;
     border: 1px solid black;
     border-radius: 10px;
-    transition: transform 0.1s;
+    transition: transform 0.2s;
 }
 
 input#enviar:hover{
-    transform: scale(1.03);
+    transform: scale(1.02);
     color: white;
     background-color: #e043e2;
     cursor: pointer;
@@ -117,10 +117,12 @@ a.but{
     border: 1px solid black;
     border-radius: 10px;
     padding-top: 10px;
+    transition: transform 0.2s ease-in-out, color 0.4s ease, background-color 0.4s ease;
 }
 a.but:hover{
-    background-color: #989292;
+    background-color: #484848;
     color: white;
+    transform: scale(1.02);
 }
 a.but > span{
     font-size: 0.8em
